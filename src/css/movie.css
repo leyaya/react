@@ -1,0 +1,59 @@
+.movie_container{
+    display: flex;
+    background-color:pink;
+}
+
+.movie_nav{
+    width: 20%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_nav a{
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.movie_nav .movie_current{
+    color:mediumaquamarine;
+    font-weight: 700;
+
+}
+
+.movie_nav a:hover{
+    color: purple;
+    font-weight: 700;
+
+}
+.movie_areas{
+    width: 90%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_map{
+    height: 10%;
+    background-color:yellowgreen;
+    display: flex;
+}
+
+.movie_map span{
+    width: 20%;
+    background-color:yellowgreen;
+    display: flex;
+}
+.movie_map div{
+    width:80%;
+}
+
+.movie_content{
+    height: 90%;
+    background-color:greenyellow;
+}
+
+

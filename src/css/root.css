@@ -1,0 +1,37 @@
+html, body,div{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* 超小屏幕（手机，小于 768px） */
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 16px;
+        background-color: aqua;
+    }
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    html{
+        font-size: 18px;
+        background-color: greenyellow;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    html{
+        font-size: 20px;
+        background-color: orange;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media screen and (min-width: 1201px) {
+    html{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,30 @@
+.app_container{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+}
+
+.app_header{
+    height: 6%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_header a{
+    flex: 1;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+
+.app_header a:hover{
+    color: red;
+    font-weight: 700;
+}
+
+.app_content{
+    height: 94%;
+    background-color: aqua;
+}

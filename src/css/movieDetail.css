@@ -1,0 +1,15 @@
+.movieDetail_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieDetail_back{
+    height: 3rem;
+    background-color: bisque;
+}
+
+.movieDetail_content{
+    flex: 1;
+    overflow-y:scroll;
+}
